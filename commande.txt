@@ -1,0 +1,4 @@
+Installation des bibliothèques
+installer bibtexparser
+installer pybtex sur vscode
+pip install "nom"

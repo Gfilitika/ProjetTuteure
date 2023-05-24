@@ -1,0 +1,381 @@
+% This file was created with JabRef 2.10.
+% Encoding: ISO8859_1
+
+
+@Article{Bar94,
+  Title                    = {Some new {NP}-complete coding problems},
+  Author                   = {Barg, S},
+  Journal                  = {Problemy Peredachi Informatsii},
+  Year                     = {1994},
+  Number                   = {3},
+  Pages                    = {23--28},
+  Volume                   = {30},
+
+  Abstract                 = {We prove the NP-completeness of the basic decision problems for ternary linear codes. In particular, we prove that finding out whether a ternary linear code contains a vector of weight equal to the code length is NP-complete. In addition, we prove the hardness of minimum distance decoding for linear product codes with nontrivial factors.},
+  Language                 = {Russian},
+  Publisher                = {Russian Academy of Sciences, Branch of Informatics, Computer Equipment and Automatization}
+}
+
+@Article{BMcEvT78,
+  Title                    = {On the inherent intractability of certain coding problems},
+  Author                   = {Berlekamp, Elwyn R. and McEliece, Robert James and van Tilborg, Henk C. A.},
+  Journal                  = {IEEE Transactions on Information Theory},
+  Year                     = {1978},
+
+  Month                    = {May},
+  Number                   = {3},
+  Pages                    = {384-386},
+  Volume                   = {24},
+
+  Abstract                 = {The fact tbat the general decoding problem for linear codes and the general problem of rmding tbe weights of a linear code are both NP-complete is shown. This strongly suggests, but does not rigorously imply, that no algorithm for either of these problems which lulls in polynomial time exists.}
+}
+
+@InCollection{BCS13,
+  Title                    = {{McBits}: Fast Constant-Time Code-Based Cryptography},
+  Author                   = {Bernstein, Daniel J. and Chou, Tung and Schwabe, Peter},
+  Booktitle                = {Cryptographic Hardware and Embedded Systems (CHES 2013)},
+  Publisher                = {Springer},
+  Year                     = {2013},
+
+  Address                  = {Berlin, Heidelberg},
+  Editor                   = {Bertoni, Guido and Coron, Jean-S\'ebastien},
+  Pages                    = {250-272},
+  Series                   = {Lecture Notes in Computer Science (LNCS)},
+  Volume                   = {8086},
+
+  Abstract                 = {This paper presents extremely fast algorithms for code-based public-key cryptography, including full protection against timing attacks. For example, at a 2128 security level, this paper achieves a reciprocal decryption throughput of just 60493 cycles (plus cipher cost etc.) on a single Ivy Bridge core. These algorithms rely on an additive {FFT} for fast root computation, a transposed additive {FFT} for fast syndrome computation, and a sorting network to avoid cache-timing attacks.},
+  Doi                      = {10.1007/978-3-642-40349-1\_15},
+  ISBN                     = {978-3-642-40348-4},
+  Keywords                 = {McEliece, Niederreiter, CFS, bitslicing, software implementation},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-40349-1\_15}
+}
+
+@InCollection{BS08,
+  Title                    = {{McEliece} Cryptosystem Implementation: Theory and Practice},
+  Author                   = {Biswas, Bhaskar and Sendrier, Nicolas},
+  Booktitle                = {Proceedings of the Second International Workshop on Post-Quantum Cryptography (PQCrypto 2008)},
+  Publisher                = {Springer},
+  Year                     = {2008},
+
+  Address                  = {Berlin, Heidelberg},
+  Editor                   = {Buchmann, Johannes and Ding, Jintai},
+  Pages                    = {47-62},
+  Series                   = {Lecture Notes in Computer Science (LNCS)},
+  Volume                   = {5299},
+
+  Abstract                 = {Though it is old and considered fast, the implementation of McEliece public-key encryption scheme has never been thoroughly studied. We consider that problem here and we provide an implementation with a complete description of our algorithmic choices and parameters a complete description of our algorithmic choices and parameters selection, together with the state of the art in cryptanalysis. This provides a reference for measuring speed and scalability of this cryptosystem. Compared with other, number-theory based, public key scheme, we demonstrate a gain of a factor at least 5 to 10.},
+  Acmid                    = {1473113},
+  Doi                      = {10.1007/978-3-540-88403-3\_4},
+  ISBN                     = {978-3-540-88402-6},
+  Journal                  = {PQCrypto 2008},
+  Keywords                 = {Public-key cryptosystem, McEliece encryption scheme, code-based cryptography, cryptographic implementation},
+  Language                 = {English},
+  Location                 = {Cincinnati, OH, USA},
+  Numpages                 = {16},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-88403-3\_4}
+}
+
+@InCollection{CEvMS15,
+  Title                    = {Differential Power Analysis of a {McEliece} Cryptosystem},
+  Author                   = {Chen, Cong and Eisenbarth, Thomas and von Maurich, Ingo and Steinwandt, Rainer},
+  Booktitle                = {Applied Cryptography and Network Security (ACNS)},
+  Publisher                = {Springer International Publishing},
+  Year                     = {2015},
+  Editor                   = {Malkin, Tal and Kolesnikov, Vladimir and Lewko, Allison Bishop and Polychronakis, Michalis},
+  Pages                    = {538-556},
+  Series                   = {Lecture Notes in Computer Science (LNCS)},
+  Volume                   = {9092},
+
+  Abstract                 = {This work presents the first differential power analysis of an implementation of the McEliece cryptosystem. Target of this side-channel attack is a state-of-the-art FPGA implementation of the efficient QC-MDPC McEliece decryption operation as presented at DATE 2014. The presented cryptanalysis succeeds to recover the complete secret key after a few observed decryptions. It consists of a combination of a differential leakage analysis during the syndrome computation followed by an algebraic step that exploits the relation between the public and private key.},
+  Date                     = {June 2 - 5, 2015},
+  Doi                      = {10.1007/978-3-319-28166-7\_26},
+  ISBN                     = {978-3-319-28165-0},
+  Keywords                 = {Differential power analysis; McEliece cryptosystem; QC-MDPC Codes; FPGA},
+  Language                 = {English},
+  Location                 = {New York, NY, USA},
+  Url                      = {http://dx.doi.org/10.1007/978-3-319-28166-7\_26}
+}
+
+@Article{CEvMS16a,
+  Title                    = {Masking Large Keys in Hardware: A Masked Implementation of {McEliece}},
+  Author                   = {Chen, Cong and Eisenbarth, Thomas and von Maurich, Ingo and Steinwandt, Rainer},
+  Journal                  = {Selected Areas in Cryptography (SAC 2015)},
+  Year                     = {2016},
+
+  Month                    = {September},
+  Pages                    = {293-309},
+  Volume                   = {9566},
+
+  Abstract                 = {Instantiations of the McEliece cryptosystem which are considered computationally secure even in a post-quantum era still require hardening against side channel attacks for practical applications. Recently, the first differential power analysis attack on a McEliece cryptosystem successfully recovered the full secret key of a state-of-the-art FPGA implementation of QC-MDPC McEliece. In this work we show how to apply masking countermeasures to the scheme and present the first masked FPGA implementation that includes these countermeasures. We validate the side channel resistance of our design by practical DPA attacks and statistical tests for leakage detection.},
+  Date                     = {August 12-14, 2015},
+  Editors                  = {Dunkelman, Orr and Keliher, Liam},
+  HowPublished             = {Cryptology ePrint Archive, Report 2015/924},
+  Keywords                 = {implementation / Threshold Implementation, McEliece Cryptosystem, QC-MDPC Codes, FPGA},
+  Location                 = {Sackville, NB, Canada},
+  Review                   = {ePrint version. In SAC (Selected Areas in Cryptography) 2015. (version payante) \url{http://eprint.iacr.org/2015/924}},
+  Url                      = {https://link.springer.com/chapter/10.1007/978-3-319-31301-6\_18}
+}
+
+@Article{CEvMS16b,
+  Title                    = {Horizontal and Vertical Side Channel Analysis of a {McEliece} Cryptosystem},
+  Author                   = {C. Chen and T. Eisenbarth and I. von Maurich and R. Steinwandt},
+  Journal                  = {IEEE Transactions on Information Forensics and Security},
+  Year                     = {2016},
+
+  Month                    = {June},
+  Number                   = {6},
+  Pages                    = {1093-1105},
+  Volume                   = {11},
+
+  Abstract                 = {This paper presents horizontal and vertical side channel analysis techniques for an implementation of the McEliece cryptosystem. The target of this side-channel attack is a state-of-the-art field-programmable gate array (FPGA) implementation of the efficient quasi-cyclic moderate-density parity-check McEliece decryption operation, as presented at Design, Automation and Test in Europe (DATE) 2014. The presented cryptanalysis succeeds to recover the complete secret key after a few observed decryptions. It consists of a combination of a differential leakage analysis during the syndrome computation followed by an algebraic step that exploits the relation between the public key and the private key.},
+  Doi                      = {10.1109/TIFS.2015.2509944},
+  ISSN                     = {1556-6013},
+  Keywords                 = {Differential power analysis, McEliece Cryptosystem, QC-MDPC Codes, FPGA},
+  Url                      = {http://ieeexplore.ieee.org/abstract/document/7360160/}
+}
+
+@InBook{Cho17,
+  Title                    = {{McBits} Revisited},
+  Author                   = {Chou, Tung},
+  Editor                   = {Fischer, Wieland and Homma, Naofumi},
+  Pages                    = {213--231},
+  Publisher                = {Springer International Publishing},
+  Year                     = {2017},
+
+  Address                  = {Cham},
+  Month                    = {August},
+
+  Abstract                 = {This paper presents a constant-time fast implementation for a high-security code-based encryption system. The implementation is based on the "McBits" paper by Bernstein, Chou, and Schwabe in 2013: we use the same FFT algorithms for root finding and syndrome computation, similar algorithms for secret permutation, and bitslicing for low-level operations. As opposed to McBits, where a high decryption throughput is achieved by running many decryption operations in parallel, we take a different approach to exploit the internal parallelism in one decryption operation for the use of more applications. As the result, we manage to achieve a slightly better decryption throughput at a much higher security level than McBits. As a minor contribution, we also present a constant-time implementation for encryption and key-pair generation, with similar techniques used for decryption.},
+  Booktitle                = {Cryptographic Hardware and Embedded Systems -- CHES 2017: 19th International Conference, Proceedings},
+  Date                     = {September 25-28, 2017},
+  Doi                      = {10.1007/978-3-319-66787-4\_11},
+  ISBN                     = {978-3-319-66787-4},
+  Journal                  = {CHES 2017},
+  Keywords                 = {implementation / McEliece, Niederreiter, bitslicing, software implementation},
+  Location                 = {Taipei, Taiwan},
+  Url                      = {https://link.springer.com/chapter/10.1007/978-3-319-66787-4\_11}
+}
+
+@InBook{Cho16,
+  Title                    = {{QcBits}: Constant-Time Small-Key Code-Based Cryptography},
+  Author                   = {Tung Chou},
+  Editor                   = {Gierlichs, Benedikt and Poschmann, Axel Y.},
+  Pages                    = {280--300},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2016},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Abstract                 = {This paper introduces a constant-time implementation for a quasi-cyclic moderate-denity-parity-check (QC-MDPC) code based encryption scheme. At a $2^{80}$ security level, the software takes 14 679 937 Cortex-M4 and 1 560 072 Haswell cycles to decrypt a short message, while the previous records were 18 416 012 and 3 104 624 (non-constant-time) cycles. Such speed is achieved by combining two techiniques: 1) performing each polynomial multiplication in $\mathbb{F}_2[x]/(x^n - 1)$ and $\mathbb{Z}[x]/(x^n - 1)$ using a sequence of "constant-time rotations" and 2) bit-slicing.},
+  Booktitle                = {Cryptographic Hardware and Embedded Systems -- CHES 2016: 18th International Conference, Proceedings},
+  Date                     = {August 17-19, 2016},
+  Doi                      = {10.1007/978-3-662-53140-2\_14},
+  HowPublished             = {On his webpage: \url{http://www.win.tue.nl/~tchou/papers/qcbits.pdf}},
+  ISBN                     = {978-3-662-53140-2},
+  Journal                  = {CHES 2016},
+  Keywords                 = {McEliece, Niederreiter, QC-MDPC codes, bitslicing, software implementation},
+  Location                 = {Santa Barbara, CA, USA},
+  Url                      = {http://dx.doi.org/10.1007/978-3-662-53140-2\_14}
+}
+
+@Article{GMRZ13,
+  Title                    = {Low rank parity check codes and their application to cryptography},
+  Author                   = {Gaborit, Philippe and Murat, Ga{\'e}tan and Ruatta, Olivier and Z{\'e}mor, Gilles},
+  Year                     = {2013},
+  Pages                    = {168--180},
+
+  Booktitle                = {Proc. WCC}
+}
+
+@InCollection{HMP10,
+  Title                    = {Practical Power Analysis Attacks on Software Implementations of {McEliece}},
+  Author                   = {Heyse, Stefan and Moradi, Amir and Paar, Christof},
+  Booktitle                = {Proceedings of the Third international conference on Post-Quantum Cryptography (PQCrypto 2010)},
+  Publisher                = {Springer},
+  Year                     = {2010},
+
+  Address                  = {Berlin Heidelberg},
+  Editor                   = {Sendrier, Nicolas},
+  Pages                    = {108-125},
+  Series                   = {Lecture Notes in Computer Science (LNCS)},
+  Volume                   = {6061},
+
+  Abstract                 = {The McEliece public-key cryptosystem is based on the fact that decoding unknown linear binary codes is an NP-complete problem. The interest on implementing post-quantum cryptographic algorithms, e.g. McEliece, on microprocessor-based platforms has been extremely raised due to the increasing storage space of these platforms. Therefore, their vulnerability and robustness against physical attacks, e.g., state-of-the-art power analysis attacks, must be investigated. In this work, we address mainly two power analysis attacks on various implementations of McEliece on an 8-bit AVR microprocessor. To the best of our knowledge, this is the first time that such side-channel attacks are practically evaluated.},
+  Added-at                 = {2010-07-21T16:05:13.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2478b12df4dc7b0400f6dca15156c5eec/dblp},
+  Date                     = {2010-06-09},
+  Doi                      = {10.1007/978-3-642-12929-2\_9},
+  Ee                       = {http://dx.doi.org/10.1007/978-3-642-12929-2\_9},
+  Interhash                = {7123d796600e165b8554f819f4623694},
+  Intrahash                = {478b12df4dc7b0400f6dca15156c5eec},
+  ISBN                     = {978-3-642-12928-5},
+  Journal                  = {PQCrypto 2010},
+  Language                 = {English},
+  Location                 = {Darmstadt, Germany},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-12929-2\_9}
+}
+
+@Book{McWS77Book,
+  Title                    = {The theory of error-correcting codes},
+  Author                   = {MacWilliams, Florence Jessie and Sloane, Neil James Alexander},
+  Editor                   = {North-Holland Mathematical Library},
+  Publisher                = {North-Holland},
+  Year                     = {1977}
+}
+
+@InCollection{vMG14b,
+  Title                    = {Towards Side-Channel Resistant Implementations of {QC-MDPC} {McEliece} Encryption on Constrained Devices},
+  Author                   = {von Maurich, Ingo and G\"{u}neysu, Tim},
+  Booktitle                = {Post-Quantum Cryptography},
+  Publisher                = {Springer International Publishing},
+  Year                     = {2014},
+  Editor                   = {Mosca, Michele},
+  Month                    = {October},
+  Pages                    = {266-282},
+  Series                   = {Lecture Notes in Computer Science (LNCS)},
+  Volume                   = {8772},
+
+  Abstract                 = {Recent advances in code-based cryptography paved new ways for efficient asymmetric cryptosystems that combine decent performance with moderate key sizes. In this context, Misoczki et al. recently proposed the use of quasi-cyclic MDPC (QC-MDPC) codes for the McEliece cryptosystem. It was shown that these codes can provide both compact key representations and solid performance on high-end computing platforms. However, for widely used low-end microcontrollers only slow implementations for this promising construction have been presented so far. In this work we present an implementation of QC-MDPC McEliece encryption providing 80 bits of equivalent symmetric security on low-cost ARM Cortex-M4-based microcontrollers with a reasonable performance of 42ms for encryption and 251-558ms for decryption. Besides practical issues such as random error generation, we demonstrate side-channel attacks on a straightforward implementation of this scheme and finally propose timing- and instruction-invariant coding strategies and countermeasures to strengthen it against timing attacks as well as simple power analysis.},
+  Doi                      = {10.1007/978-3-319-11659-4_16},
+  ISBN                     = {978-3-319-11658-7},
+  Keywords                 = {Code-based cryptography, public key encryption, side-channel attacks, software, microcontroller, post-quantum cryptography},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/978-3-319-11659-4\_16}
+}
+
+@InProceedings{vMG14a,
+  Title                    = {Lightweight Code-based Cryptography: {QC}-{MDPC} {McEliece} Encryption on Reconfigurable Devices},
+  Author                   = {von Maurich, Ingo and G\"{u}neysu, Tim},
+  Booktitle                = {Design, Automation and Test in Europe Conference and Exhibition (DATE 2014)},
+  Year                     = {2014},
+
+  Address                  = {3001 Leuven, Belgium, Belgium},
+  Month                    = {March},
+  Note                     = {\url{http://dl.acm.org/citation.cfm?id=2616606.2616654}},
+  Pages                    = {1-6},
+  Publisher                = {European Design and Automation Association},
+
+  Abstract                 = {With the break of RSA and ECC cryptosystems in an era of quantum computing, asymmetric code-based cryptography is an established alternative that can be a potential replacement. A major drawback are large keys in the range between 50kByte to several MByte that prevented real-world applications of code-based cryptosystems so far. A recent proposal by Misoczki et al. showed that quasi-cyclic moderate density parity-check (QC-MDPC) codes can be used in McEliece encryption - reducing the public key to just 0.6 kByte to achieve a 80-bit security level. Despite of reasonably small key sizes that could also enable small designs, previous work only report highperformance implementations with high resource consumptions of more than 13,000 slices on a large Xilinx Virtex-6 FPGA for a combined en-/decryption unit. In this work we focus on lightweight implementations of code-based cryptography and demonstrate that McEliece encryption using QC-MDPC codes can be implemented with a significantly smaller resource footprint - still achieving reasonable performance sufficient for many applications, e.g., challenge-response protocols or hybrid firmware encryption. More precisely, our design requires just 68 slices for the encryption and around 150 slices for the decryption unit and is able to en-/decrypt an input block in 2.2ms and 13.4 ms, respectively.},
+  Acmid                    = {2616654},
+  Articleno                = {38},
+  Doi                      = {10.7873/DATE.2014.051},
+  ISBN                     = {978-3-9815370-2-4},
+  Keywords                 = {cyclic codes, field programmable gate arrays, parity check codes, public key cryptography, quantum computing, reconfigurable architectures, ECC cryptosystems, QC-MDPC McEliece encryption, QC-MDPC codes, RSA cryptosystems, Xilinx Virtex-6 FPGA, combined encryption-decryption unit, lightweight code-based cryptography, quantum computing, quasi-cyclic moderate density parity-check codes, reconfigurable devices, resource consumption, resource footprint, security level, word length 80 bit, Decoding, Elliptic curve cryptography, Encryption, Field programmable gate arrays, Generators, Vectors},
+  Location                 = {Dresden, Germany},
+  Numpages                 = {6},
+  Url                      = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6800252}
+}
+
+@TechReport{McE78,
+  Title                    = {A public-key cryptosystem based on algebraic coding theory},
+  Author                   = {McEliece, Robert James},
+  Institution              = {California Inst. Technol.},
+  Year                     = {1978},
+
+  Address                  = {Pasadena, CA},
+  Month                    = {January},
+  Number                   = {44},
+
+  Abstract                 = {Using th fact that a fast decoding algorithm exists for a general Goppa code, while no such exists for a general linear code, we construct a public-key cryptosystem which appears quite secure while at the same time allowing extremely rapid data rates. This kind of cryptosystem is ideal for the distribution of space-acquired data.},
+  Journal                  = {Deep Space Network Progress Report},
+  Pages                    = {114-116},
+  Publisher                = {Jet Propulsion Lab.},
+  Volume                   = {42}
+}
+
+@InProceedings{MTSB13,
+  Title                    = {{MDPC}-{McEliece}: New {McEliece} variants from Moderate Density Parity-Check codes},
+  Author                   = {Misoczki, Rafael and Tillich, Jean-Pierre and Sendrier, Nicolas and Barreto, Paulo S. L. M.},
+  Booktitle                = {IEEE International Symposium on Information Theory Proceedings (ISIT 2013)},
+  Year                     = {2013},
+  Month                    = {July},
+  Pages                    = {2069-2073},
+
+  Abstract                 = {In this work, we propose two McEliece variants: one from Moderate Density Parity-Check (MDPC) codes and another from quasi-cyclic MDPC codes. MDPC codes are LDPC codes of higher density (and worse error-correction capability) than what is usually adopted for telecommunication applications. However, in cryptography we are not necessarily interested in correcting many errors, but only a number which ensures an adequate security level. By this approach, we reduce under certain hypotheses the security of the scheme to the well studied decoding problem. Furthermore, the quasi-cyclic variant provides extremely compact-keys (for 80-bits of security, public-keys have only 4801 bits).},
+  Doi                      = {10.1109/ISIT.2013.6620590},
+  ISSN                     = {2157-8095},
+  Journal                  = {ISIT 2013},
+  Keywords                 = {Post-quantum cryptography, code-based cryptography, coding-theory, LDPC codes},
+  Url                      = {http://ieeexplore.ieee.org/abstract/document/6620590/}
+}
+
+@Article{Nie86,
+  Title                    = {Knapsack-type cryptosystems and algebraic coding theory},
+  Author                   = {Niederreiter, Harald},
+  Journal                  = {Problems of control and information theory},
+  Year                     = {1986},
+  Note                     = {PROBLEMY UPRAVLENIYA I TEORII INFORMATSII},
+  Number                   = {2},
+  Pages                    = {159-166},
+  Volume                   = {15},
+
+  Language                 = {English},
+  Publisher                = {PERGAMON-ELSEVIER SCIENCE LTD THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD, ENGLAND OX5 1GB}
+}
+
+@Article{PRDCF16a,
+  Title                    = {Differential power analysis attack on the secure bit permutation in the {McEliece} cryptosystem},
+  Author                   = {Petrvalsk\'{y}, Martin and Richmond, Tania and Drutarovsk\'{y} , Milo\v{s} and Cayrel, Pierre-Louis and Fischer, Viktor},
+  Journal                  = {RadioElektronika 2016},
+  Year                     = {2016},
+
+  Month                    = {April},
+  Pages                    = {132-137},
+
+  Abstract                 = {The segment of post-quantum cryptography rises its importance with increasing improvements in the quantum computing. Cryptographic post-quantum algorithms have been proposed since 1970s. However, side-channel attack vulnerabilities of these algorithms are still in focus of the recent research. In this paper, we present a differential power analysis attack on the McEliece public-key cryptosystem. We demonstrate that a part of a private key, permutation matrix, can be recovered using the power analysis. We attack a software implementation of a secure bit permutation that was proposed by Strenzke et al. at PQCrypto 2008. The cryptosystem is implemented on a 32-bit ARM based microcontroller. We provide details of the attack and results using power consumption measurements of the device. In addition, we outline a novel countermeasure against the introduced attack. The countermeasure uses properties of the linear codes and does not require large amount of random bits which can be profitable for low-cost embedded devices.},
+  Booktitle                = {2016 26th International Conference Radioelektronika (RADIOELEKTRONIKA)},
+  Date                     = {April 19-20, 2016},
+  Doi                      = {10.1109/RADIOELEK.2016.7477382},
+  Keywords                 = {Differential power analysis, Goppa codes, McEliece cryptosystem, secure bit permutation, side-channel attack},
+  Location                 = {Ko\v{s}ice, Slovakia},
+  Url                      = {http://ieeexplore.ieee.org/xpl/abstractKeywords.jsp?arnumber=7477382&abstractAccess=no&userType=inst}
+}
+
+@InProceedings{PRDCF15,
+  Title                    = {Countermeasure against the {SPA} Attack on an Embedded {McEliece} Cryptosystem},
+  Author                   = {Petrvalsk\'{y}, Martin and Richmond, Tania and Drutarovsk\'{y} , Milo\v{s} and Cayrel, Pierre-Louis and Fischer, Viktor},
+  Booktitle                = {Radioelektronika (RADIOELEKTRONIKA), 2015 25th International Conference},
+  Year                     = {2015},
+  Month                    = {April},
+  Pages                    = {462-466},
+  Publisher                = {IEEE},
+
+  Abstract                 = {In this paper, we present a novel countermeasure against a simple power analysis based side channel attack on a software implementation of the McEliece public key cryptosystem. First, we attack a straightforward C implementation of the Goppa codes based McEliece decryption running on an ARM Cortex-M3 microprocessor. Next, we demonstrate on a realistic example that using a "chosen ciphertext attack" method, it is possible to recover the complete secret permutation matrix. We show that this matrix can be completely recovered by an analysis of a dynamic power consumption of the microprocessor. Then, we estimate the brute-force attack complexity reduction depending on the knowledge of the permutation matrix. Finally, we propose an efficient software countermeasure having low computational complexity. Of course, we provide all the necessary details regarding the attack implementation and all the consequences of the proposed countermeasure especially in terms of power consumption.},
+  Doi                      = {10.1109/RADIOELEK.2015.7129055},
+  Journal                  = {MAREW 2015},
+  Keywords                 = {Cryptography; Oscilloscopes; Parity check codes; Power demand; Power measurement; Software; Timing},
+  Url                      = {http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7129055&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7129055}
+}
+
+@InProceedings{RHHM17,
+  Title                    = {A Side-Channel Assisted Cryptanalytic Attack Against {QcBits}},
+  Author                   = {Rossi, M{\'e}lissa and Hamburg, Mike and Hutter, Michael and Marson, Mark E.},
+  Booktitle                = {Cryptographic Hardware and Embedded Systems -- CHES 2017},
+  Year                     = {2017},
+
+  Address                  = {Cham},
+  Editor                   = {Fischer, Wieland and Homma, Naofumi},
+  Pages                    = {3--23},
+  Publisher                = {Springer International Publishing},
+
+  Abstract                 = {QcBits is a code-based public key algorithm based on a problem thought to be resistant to quantum computer attacks. It is a constant-time implementation for a quasi-cyclic moderate density parity check (QC-MDPC) Niederreiter encryption scheme, and has excellent performance and small key sizes. In this paper, we present a key recovery attack against QcBits. We first used differential power analysis (DPA) against the syndrome computation of the decoding algorithm to recover partial information about one half of the private key. We then used the recovered information to set up a system of noisy binary linear equations. Solving this system of equations gave us the entire key. Finally, we propose a simple but effective countermeasure against the power analysis used during the syndrome calculation.},
+  ISBN                     = {978-3-319-66787-4},
+  Journal                  = {CHES 2017}
+}
+
+@Article{Sho97,
+  Title                    = {Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer},
+  Author                   = {Shor, Peter W.},
+  Journal                  = {SIAM Journal on Computing},
+  Year                     = {1997},
+  Number                   = {5},
+  Pages                    = {1484-1509},
+  Volume                   = {26},
+
+  Abstract                 = {A digital computer is generally believed to be an efficient universal computing device; that is, it is believed able to simulate any physical computing device with an increase in computation time by at most a polynomial factor. This may not be true when quantum mechanics is taken into consideration. This paper considers factoring integers and finding discrete logarithms, two problems which are generally thought to be hard on a classical computer and which have been used as the basis of several proposed cryptosystems. Efficient randomized algorithms are given for these two problems on a hypothetical quantum computer. These algorithms take a number of steps polynomial in the input size, e.g., the number of digits of the integer to be factored.},
+  Doi                      = {10.1137/S0097539795293172},
+  Eprint                   = {http://epubs.siam.org/doi/pdf/10.1137/S0097539795293172},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/S0097539795293172}
+}
+

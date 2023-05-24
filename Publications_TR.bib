@@ -1,0 +1,363 @@
+% Encoding: ISO-8859-1
+
+
+@InProceedings{ALRT18,
+  Title                    = {Statistical Model Checking of Incomplete Stochastic Systems},
+  Author                   = {Arora, Shiraj and Legay, Axel and Richmond, Tania and Traonouez, Louis-Marie},
+  Booktitle                = {Leveraging Applications of Formal Methods, Verification and Validation. Verification (ISoLA)},
+  Year                     = {2018},
+
+  Address                  = {Cham},
+  Editor                   = {Margaria, Tiziana and Steffen, Bernhard},
+  Pages                    = {354--371},
+  Publisher                = {Springer International Publishing},
+
+  Abstract                 = {We study incomplete stochastic systems that are missing some parts of their design, or are lacking information about some components. It is interesting to get early analysis results of the requirements of these systems, in order to adequately refine their design. In previous works, models for incomplete systems are analysed using model checking techniques for three-valued temporal logics. In this paper, we propose statistical model checking algorithms for these logics. We illustrate our approach on a case-study of a network system that is refined after the analysis of early designs.},
+  Doi                      = {10.1007/978-3-030-03421-4\_23},
+  ISBN                     = {978-3-030-03421-4},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.13},
+  Url                      = {https://link.springer.com/chapter/10.1007/978-3-030-03421-4\_23}
+}
+
+@Article{BCDR17,
+  Title                    = {Improved Timing Attacks against the Secret Permutation in the {McEliece} {PKC}},
+  Author                   = {Bucerzan, Dominic and Cayrel, Pierre-Louis and Dragoi, Vlad and Richmond, Tania},
+  Journal                  = {International Journal of Computers Communications \& Control},
+  Year                     = {2017},
+  Number                   = {1},
+  Pages                    = {7--25},
+  Volume                   = {12},
+
+  Abstract                 = {In this paper, we detail two side-channel attacks against the McEliece public-key cryptosystem. They are exploiting timing differences on the Patterson decoding algorithm in order to reveal one part of the secret key: the support permutation. The first one is improving two existing timing attacks and uses the correlation between two different steps of the decoding algorithm. This improvement can be deployed on all error-vectors with Hamming weight smaller than a quarter of the minimum distance of the code. The second attack targets the evaluation of the error locator polynomial and succeeds on several different decoding algorithms. We also give an appropriate countermeasure.},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2018.02.14},
+  Url                      = {http://univagora.ro/jour/index.php/ijccc/article/view/2780}
+}
+
+@Article{BDR17,
+  Title                    = {The simple roots problem},
+  Author                   = {Bucerzan, Dominic and Dragoi, Vlad and Richmond, Tania},
+  Journal                  = {Proceedings of the Romanian Academy, Series A},
+  Year                     = {2017},
+  Number                   = {Special issue 2017, Cryptology Science},
+  Pages                    = {pp. 317-332},
+  Volume                   = {Volume 18},
+
+  Abstract                 = {The simple roots problem is a natural question related to the structure of the error locator polynomial, which is one of the key objects in the decoding algorithms for Alternant codes. Finding the roots of this polynomial enables the error positions and thus the decoding solution for this family of codes. Hence, we propose here to study the structure of the error locator polynomial, denoted $\sigma(x)$. We prove that when the degree of $\sigma(x)$ is sub-linear in the length of the code, the probability that all the coefficients of $\sigma(x)$ are different from zero is extremely high.},
+  File                     = {Simple_roots_rcd_1.pdf:https\://hal.archives-ouvertes.fr/hal-01598419/file/Simple_roots_rcd_1.pdf:PDF},
+  Hal_id                   = {hal-01598419},
+  Hal_version              = {v1},
+  Keywords                 = {McEliece scheme ; simple roots problem ; Goppa codes ; error locator polynomial ; McEliece scheme ; The simple roots problem ; Goppa codes},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.13},
+  Url                      = {https://hal.archives-ouvertes.fr/hal-01598419}
+}
+
+@Article{DCCR13,
+  Title                    = {Polynomial Structures in Code-Based Cryptography},
+  Author                   = {Dragoi, Vlad and Cayrel, Pierre-Louis and Colombier, Brice and Richmond, Tania},
+  Journal                  = {IndoCrypt 2013},
+  Year                     = {2013},
+  Pages                    = {286-296},
+  Volume                   = {8250},
+
+  Booktitle                = {Progress in Cryptology (INDOCRYPT 2013)},
+  Doi                      = {10.1007/978-3-319-03515-4\_19},
+  Editor                   = {Paul, Goutam and Vaudenay, Serge},
+  ISBN                     = {978-3-319-03514-7},
+  Keywords                 = {McEliece, Galois field, Monte-Carlo method, the simple roots problem},
+  Owner                    = {Tania Richmond},
+  Publisher                = {Springer International Publishing},
+  Series                   = {Lecture Notes in Computer Science (LNCS)},
+  Timestamp                = {2014.10.22},
+  Url                      = {http://dx.doi.org/10.1007/978-3-319-03515-4\_19}
+}
+
+@InProceedings{DRBL18,
+  Title                    = {Survey on cryptanalysis of code-based cryptography: From theoretical to physical attacks},
+  Author                   = {Dragoi, Vlad and Richmond, Tania and Bucerzan, Dominic and Legay, Axel},
+  Booktitle                = {2018 7th International Conference on Computers Communications and Control (ICCCC)},
+  Year                     = {2018},
+  Month                    = {May},
+  Pages                    = {215-223},
+
+  Abstract                 = {Nowadays public-key cryptography is based on number theory problems, such as computing the discrete logarithm on an elliptic curve or factoring big integers. Even though these problems are considered difficult to solve with the help of a classical computer, they can be solved in polynomial time on a quantum computer. Which is why the research community proposed alternative solutions that are quantum-resistant. The process of finding adequate post-quantum cryptographic schemes has moved to the next level, right after NIST's announcement for post-quantum standardization. One of the oldest quantum-resistant proposition goes back to McEliece in 1978, who proposed a public-key cryptosystem based on coding theory. It benefits of really efficient algorithms as well as a strong mathematical background. Nonetheless, its security has been challenged many times and several variants were cryptanalyzed. However, some versions remain unbroken. In this paper, we propose to give some background on coding theory in order to present some of the main flawless in the protocols. We analyze the existing side-channel attacks and give some recommendations on how to securely implement the most suitable variants. We also detail some structural attacks and potential drawbacks for new variants.},
+  Doi                      = {10.1109/ICCCC.2018.8390461},
+  Keywords                 = {number theory;polynomials;public key cryptography;quantum cryptography;side-channel attacks;structural attacks;strong mathematical background;public-key cryptosystem;oldest quantum-resistant proposition;post-quantum standardization;NIST's announcement;adequate post-quantum cryptographic schemes;quantum computer;polynomial time;elliptic curve;discrete logarithm;number theory problems;public-key cryptography;physical attacks;Linear codes;Decoding;Encryption;Computers;Post-quantum cryptography;code-based cryptography;McEliece scheme;coding theory;side-channel analysis},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.13},
+  Url                      = {https://ieeexplore.ieee.org/abstract/document/8390461}
+}
+
+@Article{PRDCF16a,
+  Title                    = {Differential power analysis attack on the secure bit permutation in the {McEliece} cryptosystem},
+  Author                   = {Petrvalsk\'{y}, Martin and Richmond, Tania and Drutarovsk\'{y} , Milo\v{s} and Cayrel, Pierre-Louis and Fischer, Viktor},
+  Journal                  = {RadioElektronika 2016},
+  Year                     = {2016},
+
+  Month                    = {April},
+  Pages                    = {132-137},
+
+  Abstract                 = {The segment of post-quantum cryptography rises its importance with increasing improvements in the quantum computing. Cryptographic post-quantum algorithms have been proposed since 1970s. However, side-channel attack vulnerabilities of these algorithms are still in focus of the recent research. In this paper, we present a differential power analysis attack on the McEliece public-key cryptosystem. We demonstrate that a part of a private key, permutation matrix, can be recovered using the power analysis. We attack a software implementation of a secure bit permutation that was proposed by Strenzke et al. at PQCrypto 2008. The cryptosystem is implemented on a 32-bit ARM based microcontroller. We provide details of the attack and results using power consumption measurements of the device. In addition, we outline a novel countermeasure against the introduced attack. The countermeasure uses properties of the linear codes and does not require large amount of random bits which can be profitable for low-cost embedded devices.},
+  Booktitle                = {2016 26th International Conference Radioelektronika (RADIOELEKTRONIKA)},
+  Date                     = {April 19-20, 2016},
+  Doi                      = {10.1109/RADIOELEK.2016.7477382},
+  Keywords                 = {Differential power analysis, Goppa codes, McEliece cryptosystem, secure bit permutation, side-channel attack},
+  Location                 = {Ko\v{s}ice, Slovakia},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2016.07.21},
+  Url                      = {http://ieeexplore.ieee.org/xpl/abstractKeywords.jsp?arnumber=7477382&abstractAccess=no&userType=inst}
+}
+
+@Unpublished{PRDCF16b,
+  Title                    = {Low-complexity {CBDPA} Countermeasure for Resource-Constrained Embedded {McEliece} Cryptosystem},
+  Author                   = {Petrvalsk\'{y}, Martin and Richmond, Tania and Drutarovsk\'{y} , Milo\v{s} and Cayrel, Pierre-Louis and Fischer, Viktor},
+  Note                     = {Journal version of [PRDCF16a]},
+  Year                     = {2016},
+
+  Abstract                 = {In this paper, we present an efficient countermeasure against side-channel attacks on the McEliece public-key cryptosystem. Firstly, we deploy two correlation based power analysis attacks combined with a chosen ciphertext attack targeting the cryptosystem. We demonstrate that a part of a private key (a permutation matrix) can be recovered using the attacks. We show that a revelation of the permutation matrix possess a critical threat to the cryptosystem. We attack two software implementations of a secure bit permutation. The cryptosystem and its variations are implemented on a 32-bit ARM-based microcontroller. We provide details and results of our attacks using power consumption measurements of the hardware. As a main contribution, we present a novel efficient countermeasure against the attacks. The countermeasure (which is a derivate of a masking technique) uses properties of the McEliece cryptosystem in order to reduce the complexity of the masking technique. Our new method does not require a large amount of random bits and it reduces computational time compared to the regular masking technique. These properties can be profitable for low-cost constrained and embedded devices.},
+  Journal                  = {RadioEngineering 2016},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2016.04.06}
+}
+
+@InProceedings{PRDCF15,
+  Title                    = {Countermeasure against the {SPA} Attack on an Embedded {McEliece} Cryptosystem},
+  Author                   = {Petrvalsk\'{y}, Martin and Richmond, Tania and Drutarovsk\'{y} , Milo\v{s} and Cayrel, Pierre-Louis and Fischer, Viktor},
+  Booktitle                = {Radioelektronika (RADIOELEKTRONIKA), 2015 25th International Conference},
+  Year                     = {2015},
+  Month                    = {April},
+  Pages                    = {462-466},
+  Publisher                = {IEEE},
+
+  Abstract                 = {In this paper, we present a novel countermeasure against a simple power analysis based side channel attack on a software implementation of the McEliece public key cryptosystem. First, we attack a straightforward C implementation of the Goppa codes based McEliece decryption running on an ARM Cortex-M3 microprocessor. Next, we demonstrate on a realistic example that using a "chosen ciphertext attack" method, it is possible to recover the complete secret permutation matrix. We show that this matrix can be completely recovered by an analysis of a dynamic power consumption of the microprocessor. Then, we estimate the brute-force attack complexity reduction depending on the knowledge of the permutation matrix. Finally, we propose an efficient software countermeasure having low computational complexity. Of course, we provide all the necessary details regarding the attack implementation and all the consequences of the proposed countermeasure especially in terms of power consumption.},
+  Doi                      = {10.1109/RADIOELEK.2015.7129055},
+  Journal                  = {MAREW 2015},
+  Keywords                 = {Cryptography; Oscilloscopes; Parity check codes; Power demand; Power measurement; Software; Timing},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2016.04.06},
+  Url                      = {http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7129055&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7129055}
+}
+
+@Misc{PRDCF15b,
+  Title                    = {COUNTERMEASURE AGAINST THE SPA ATTACK ON AN EMBEDDED MCELIECE CRYPTOSYSTEM},
+
+  Author                   = {Petrvalsky, Martin and Richmond, Tania and Drutarovsk{\'y}, Milo{\v s} and Cayrel, Pierre-Louis and Fischer, Viktor},
+  HowPublished             = {{Microwave and Radio Electronics Week (MAREW) 2015}},
+  Month                    = Apr,
+  Note                     = {Poster},
+  Year                     = {2015},
+
+  Hal_id                   = {hal-02019991},
+  Hal_version              = {v1},
+  Owner                    = {Tania Richmond},
+  Pdf                      = {https://hal.inria.fr/hal-02019991/file/2015_MAREW_poster.pdf},
+  Timestamp                = {2019.02.14},
+  Url                      = {https://hal.inria.fr/hal-02019991}
+}
+
+@InProceedings{PHJKR18,
+  Title                    = {Improving Side-Channel Analysis through Semi-Supervised Learning},
+  Author                   = {Picek, Stjepan and Heuser, Annelie and Jovic, Alan and Knezevic, Karlo and Richmond, Tania},
+  Booktitle                = {17th Smart Card Research and Advanced Application Conference (CARDIS 2018)},
+  Year                     = {2018},
+
+  Address                  = {Montpellier, France},
+  Month                    = Nov,
+
+  Abstract                 = {The profiled side-channel analysis represents the most powerful category of side-channel attacks. In this context, the security eval-uator (i.e., attacker) gains access to a profiling device to build a precise model which is used to attack another device in the attacking phase. Mostly, it is assumed that the attacker has significant capabilities in the profiling phase, whereas the attacking phase is very restricted. We step away from this assumption and consider an attacker restricted in the profiling phase, while the attacking phase is less limited. We propose the concept of semi-supervised learning for side-channel analysis, where the attacker uses a small number of labeled measurements from the profiling phase as well as the unlabeled measurements from the attacking phase to build a more reliable model. Our results show that the semi-supervised concept significantly helps the template attack (TA) and its pooled version (TAp). More specifically, for low noise scenario, the results for machine learning techniques and TA are often improved when only a small number of measurements is available in the profiling phase, while there is no significant difference in scenarios where the supervised set is large enough for reliable classification. For high noise scenario, TAp and multilayer perceptron results are improved for the majority of inspected dataset sizes, while for high noise scenario with added countermeasures, we show a small improvement for TAp, Naive Bayes and multilayer per-ceptron approaches for most inspected dataset sizes. Current results go in favor of using semi-supervised learning, especially self-training approach, in side-channel attacks.},
+  File                     = {SemiSupervised.pdf:https\://hal.inria.fr/hal-02011351/file/SemiSupervised.pdf:PDF},
+  Hal_id                   = {hal-02011351},
+  Hal_version              = {v1},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.13},
+  Url                      = {https://hal.inria.fr/hal-02011351}
+}
+
+@TechReport{Ric18,
+  Title                    = {Application of machine learning techniques to side-channel analysis on code-based cryptography},
+  Author                   = {Richmond, Tania},
+  Institution              = {Univ Rennes, Inria, CNRS, IRISA},
+  Year                     = {2018},
+  Month                    = Dec,
+  Type                     = {Research Report},
+
+  File                     = {Report\\_Tania\\_RICHMOND\\_in\\_The\\_Netherlands.pdf:https\://hal.inria.fr/hal-02017561/file/Report\\_Tania\\_RICHMOND\\_in\\_The\\_Netherlands.pdf:PDF},
+  Hal_id                   = {hal-02017561},
+  Hal_version              = {v1},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.13},
+  Url                      = {https://hal.inria.fr/hal-02017561}
+}
+
+@PhdThesis{RichmondThesis,
+  Title                    = {Implantation s{\'e}curis{\'e}e de protocoles cryptographiques bas{\'e}s sur les codes correcteurs d'erreurs},
+  Author                   = {Richmond, Tania},
+  School                   = {Universit{\'e} Jean Monnet, Saint-{\'E}tienne},
+  Year                     = {2016},
+  Month                    = {October},
+
+  Language                 = {French},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.14},
+  Url                      = {https://hal.archives-ouvertes.fr/tel-01910241v1}
+}
+
+@TechReport{Ric15,
+  Title                    = {Hardware attacks against cryptographic protocols based on error-correcting codes},
+  Author                   = {Richmond, Tania},
+  Institution              = {{Hubert Curien Laboratory, UMR 5516 CNRS}},
+  Year                     = {2015},
+  Month                    = Jan,
+  Type                     = {Research Report},
+
+  File                     = {Report\\_Tania\\_RICHMOND\\_in\\_Slovakia.pdf:https\://hal.inria.fr/hal-02017463/file/Report\\_Tania\\_RICHMOND\\_in\\_Slovakia.pdf:PDF},
+  Hal_id                   = {hal-02017463},
+  Hal_version              = {v1},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.13},
+  Url                      = {https://hal.inria.fr/hal-02017463}
+}
+
+@InProceedings{Ric13,
+  author        = {Richmond, Tania},
+  booktitle     = {{Proceedings du 13{\`e}me Forum des Jeunes Math{\'e}maticien-ne-s}},
+  title         = {{Le d{\'e}codage des codes de Goppa appliqu{\'e} {\`a} la Cryptographie Asym{\'e}trique}},
+  year          = {2013},
+  address       = {Lyon, France},
+  month         = {November},
+  pages         = {59-64},
+  abstract      = {{Pour s\'ecuriser les syst\`emes de communication, nous utilisons la cryptographie. Pour corriger un maximum d'erreurs possible lors des transmissions, nous utilisons les codes correcteurs d'erreurs (et la Th\'eorie des Codes). C'est dans ce contexte que se place mes recherches de th\`ese. De plus, je m'int\'eresse a la fa\c{c}on dont les algorithmes sont traduits en programmes pour le logiciel ou en circuits pour le mat\'eriel. Gr\^ace \`a cela, des failles de s\'ecurit\'e peuvent \^etre trouv\'ees, et mon but est de proposer des contre-mesures.}},
+  affiliation   = {LAboratoire Hubert Curien [Saint Etienne] - LHC},
+  audience      = {nationale},
+  collaboration = {Projet OTAN : SPS 984520 "Secure implementation of post-quantum cryptography".},
+  file          = {2013\\_FJM\\_RICHMOND.pdf:http\://hal-ujm.ccsd.cnrs.fr/ujm-01011835/PDF/2013\\_FJM\\_RICHMOND.pdf:PDF},
+  hal_id        = {ujm-01011835},
+  keywords      = {D\'ecodage lin\'eaire, Codes de Goppa, Cryptographie Asym\'etrique, Implantation s\'ecuris\'ee, Attaque par canaux cach\'es},
+  language      = {French},
+  owner         = {Tania Richmond},
+  timestamp     = {2014.07.15},
+  url           = {http://hal-ujm.ccsd.cnrs.fr/ujm-01011835},
+}
+
+@Misc{RCF15,
+  Title                    = {Code-based cryptography: A way to secure communications},
+
+  Author                   = {Richmond, Tania and Cayrel, Pierre-Louis and Fischer, Viktor},
+  HowPublished             = {{womENcourage 2015}},
+  Month                    = Sep,
+  Note                     = {Poster},
+  Year                     = {2015},
+
+  File                     = {2015_womENcourage_%28A4%29.pdf:https\://hal.inria.fr/hal-02018870/file/2015_womENcourage_%28A4%29.pdf:PDF},
+  Hal_id                   = {hal-02018870},
+  Hal_version              = {v1},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.14},
+  Url                      = {https://hal.inria.fr/hal-02018870}
+}
+
+@InProceedings{RCFV13a,
+  Title                    = {A Secure Implementation of a {Goppa} Decoder},
+  Author                   = {Richmond, Tania and Cayrel, Pierre-Louis and Fischer, Viktor and V{\'e}ron, Pascal},
+  Booktitle                = {Cryptographic architectures embedded in reconfigurable devices (Cryptarchi 2013)},
+  Year                     = {2013},
+
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.13}
+}
+
+@InProceedings{RCFV13b,
+  author      = {Richmond, Tania and Cayrel, Pierre-Louis and Fischer, Viktor and V{\'e}ron, Pascal},
+  booktitle   = {Information Hiding and interactions with Codes and Cryptography Days (JC2S2013)},
+  title       = {Towards a Secure {Goppa} Decoder In Hardware Implementation},
+  year        = {2013},
+  address     = {Paris, France},
+  month       = {November},
+  note        = {Projet OTAN (NATO) : SPS 984520 "Secure implementation of post-quantum cryptography".},
+  pages       = {4-9},
+  abstract    = {The irreducible binary {Goppa} codes are widely used in code-based cryptography, like in the {McEliece} cryptosystem. The aim of this work is to design an efficient and secure hardware implementation of a {Goppa} decoder. We will show how to adapt a common step of all decoding algorithms to obtain a "leakage resistant" variant.},
+  affiliation = {LAboratoire Hubert Curien [Saint Etienne] - LHC , Institut de Math{\'e}matiques de Toulon - IMATH},
+  file        = {JC2S13\\_Towards\\_a\\_Secure\\_Goppa\\_Decoder\\_in\\_Hardware\\_Implementation.pdf:http\://hal-ujm.ccsd.cnrs.fr/ujm-00933421/PDF/JC2S13\\_Towards\\_a\\_Secure\\_Goppa\\_Decoder\\_in\\_Hardware\\_Implementation.pdf:PDF},
+  hal_id      = {ujm-00933421},
+  keywords    = {Goppa decoder, McEliece Cryptosystem, Hardware Implementation},
+  language    = {English},
+  owner       = {Tania Richmond},
+  timestamp   = {2014.07.15},
+  url         = {http://hal-ujm.ccsd.cnrs.fr/ujm-00933421},
+}
+
+@Misc{RHG19,
+  Title                    = {Side-Channel Analysis of Post-Quantum Cryptography},
+
+  Author                   = {Richmond, Tania and Heuser, Annelie and G{\'e}rard, Beno{\^i}t},
+  HowPublished             = {{SecDays 2019}},
+  Month                    = Jan,
+  Note                     = {Poster},
+  Year                     = {2019},
+
+  File                     = {Poster_SecDays_2019.pdf:https\://hal.inria.fr/hal-02018859/file/Poster_SecDays_2019.pdf:PDF},
+  Hal_id                   = {hal-02018859},
+  Hal_version              = {v1},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2019.02.14},
+  Url                      = {https://hal.inria.fr/hal-02018859}
+}
+
+@Unpublished{RPD15,
+  Title                    = {A Side-Channel Attack Against the Secret Permutation on an Embedded {McEliece} Cryptosystem},
+  Author                   = {Richmond, Tania and Petrvalsk\'{y}, Martin and Milo\v{s} Drutarovsk\'{y}},
+  Note                     = {TRUDEVICE 2015},
+  Year                     = {2015},
+
+  Abstract                 = {In this paper, based on a thorough analysis of the state of the art, we point out a missing solution for embedded devices to secure the syndrome computation. We show that this weakness can open the door to a side-channel attack targeting the secret permutation. Indeed, brute-force attack iterations are dramatically decreased when the secret permutation is recovered. We demonstrate the feasibility of this attack against the McEliece cryptosystem implemented on an ARM Cortex-M3 microprocessor using Goppa codes. We explain how to recover the secret permutation on a toy example. Finally, we propose a promising countermeasure, which can be implemented in embedded devices to prevent this attack.},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2015.03.25}
+}
+
+@InProceedings{MR20,
+  author   = {Marquer, Yoann and Richmond, Tania},
+  booktitle= {2020 IEEE 27th Symposium on Computer Arithmetic (ARITH)}, 
+  title    = {{A Hole in the Ladder : Interleaved Variables in Iterative Conditional Branching}}, 
+  year     = {2020},
+  volume={},
+  number={},
+  pages={56-63},
+  doi={10.1109/ARITH48897.2020.00017}
+  abstract = {The modular exponentiation is crucial to the RSA cryptographic protocol, and variants inspired by the Montgomery ladder have been studied to provide more secure algorithms.
+In this paper, we abstract away the iterative conditional branching used in the Montgomery ladder, and formalize systems of equations necessary to obtain what we call the semi-interleaved and fully-interleaved ladder properties.
+In particular, we propose two attacker models using fault-injection able to obtain bits of the secret in the semi-interleaved cases (including the Montgomery ladder) but none in the fully-interleaved cases.
+We also apply these equations in order to extend the Montgomery ladder for both the semi- and fully-interleaved cases, thus proposing novel and more secure algorithms to compute the modular exponentiation.}
+}
+
+@Unpublished{MRV21,
+  author    = {Marquer, Yoann and Richmond, Tania and V{\'e}ron, Pascal},
+  title     = {A Hole in the Ladder: Interleaved Variables in Iterative Conditional Branching (Extended Version)},
+  journal   = {CoRR},
+  volume    = {abs/2103.04606},
+  year      = {2021},
+  note      = {\url{https://arxiv.org/abs/2103.04606}},
+  eprinttype = {arXiv},
+  eprint    = {2103.04606},
+  Owner                    = {Tania Richmond},
+  Timestamp                = {2021.12.15}
+}
+
+@misc{CMRE22,
+    author       = {Cheriere, Agathe and Mortajine, Lina and Richmond, Tania and El Mrabet, Nadia},
+    title        = {{Exploiting ROLLO's Constant-Time Implementations with a Single-Trace Analysis}},
+    howpublished = {Accepted at Workshop on Coding and Cryptography (WCC)},
+    year         = {2022},
+    note         = {\url{https://ia.cr/2021/477}},
+}
+
+@misc{BBMZRG22,
+  author    = {Brown, Christopher and Barwell, Adam D. and Marquer, Yoann and Zendra, Olivier and Richmond, Tania and Gu, Chen},
+  howpublished = {Accepted at ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation (PEPM)},
+  title     = {{Semi-Automatic Ladderisation: Improving Code Security through Rewriting and Dependent Types}},
+  year      = {2022},
+  url       = {https://popl22.sigplan.org/details/pepm-2022-papers/4/Semi-Automatic-Ladderisation-Improving-Code-Security-through-Rewriting-and-Dependent},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
